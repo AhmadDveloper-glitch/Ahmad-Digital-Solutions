@@ -126,6 +126,11 @@ header {
 
     transition: 0.3s ease;
 }
+.whatsapp-btn img {
+    width: 22px;
+    height: 22px;
+    object-fit: contain;
+}
 
 .whatsapp-btn:hover {
     transform: translateY(-2px);
