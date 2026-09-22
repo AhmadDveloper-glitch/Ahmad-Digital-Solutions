@@ -107,20 +107,35 @@ header {
 }
 /* whatsapp button */
 .whatsapp-btn {
-    display: inline-block;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+
     margin-top: 20px;
-    padding: 12px 22px;
+    padding: 13px 22px;
+
+    background: #25D366;
+    color: #ffffff;
+
     text-decoration: none;
     border-radius: 8px;
+
+    font-size: 15px;
+    font-weight: 600;
+
+    transition: 0.3s ease;
 }
 
 .whatsapp-btn:hover {
     transform: translateY(-2px);
+    opacity: 0.9;
 }
 
 @media (max-width: 600px) {
     .whatsapp-btn {
-        display: inline-block;
+        display: inline-flex;
+        width: auto;
         margin-top: 20px;
     }
 }
