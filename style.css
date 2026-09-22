@@ -110,26 +110,27 @@ header {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    gap: 10px;
+    gap: 7px;
 
-    margin-top: 20px;
-    padding: 12px 20px;
+    margin-top: 15px;
+    padding: 8px 14px;
 
     background: #25D366;
-    color: white;
+    color: #ffffff;
 
     text-decoration: none;
     border-radius: 50px;
 
-    font-size: 15px;
+    font-size: 13px;
     font-weight: 600;
 
+    width: fit-content;
     transition: 0.3s ease;
 }
 
 .whatsapp-btn img {
-    width: 24px;
-    height: 24px;
+    width: 18px;
+    height: 18px;
     object-fit: contain;
 }
 
@@ -140,16 +141,16 @@ header {
 
 @media (max-width: 600px) {
     .whatsapp-btn {
-        padding: 11px 18px;
-        font-size: 14px;
+        padding: 8px 13px;
+        font-size: 13px;
+        width: fit-content;
     }
 
     .whatsapp-btn img {
-        width: 22px;
-        height: 22px;
+        width: 18px;
+        height: 18px;
     }
 }
-
 .menu-btn {
     display: none;
 
